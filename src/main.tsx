@@ -1,7 +1,7 @@
-import React from "react";
+/*mport React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
-import { router } from "./routes.tsx";
+//import { router } from "./routes.tsx";
 import "@mantine/core/styles.css";
 import { MantineProvider, createTheme, virtualColor } from "@mantine/core";
 
@@ -22,4 +22,4 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <RouterProvider router={router} />
     </MantineProvider>
   </React.StrictMode>
-);
+);*/

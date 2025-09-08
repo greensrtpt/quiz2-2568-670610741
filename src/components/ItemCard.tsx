@@ -1,8 +1,8 @@
-import { Card, Group, Badge, ActionIcon, Text } from "@mantine/core";
-import { IconTrash } from "@tabler/icons-react";
+//import { Card, Group, Badge, ActionIcon, Text } from "@mantine/core";
+///import { IconTrash } from "@tabler/icons-react";
 
-type ExpenseProps = {
-  name: string;
+//type ExpenseProps = {
+/*  name: string;
   amount: number | string;
   category: string;
   onDelete: () => void;
@@ -22,11 +22,11 @@ export default function ItemCard() {
   //let val_number: number = Number("500.0");
   //console.log(val_number + 100); // 600.0
 
-  return {
+  //return {
     /* Type additional text here. */
     
-  };
-}
+// };
+//}
 
 //สร้างItem list
 //card:ทุกอย่าง

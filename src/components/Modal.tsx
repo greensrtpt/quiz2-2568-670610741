@@ -32,10 +32,6 @@ export default function AddExpenseModal({}: AddExpenseModalProps) {
   // หากต้องการแปง type string เป็น type number สามารถดูตัวอย่างนี้ได้
   let val_number: number = Number("500.0");
   console.log(val_number + 100); // 600.0
-
-
-}
-
   return ( 
   <div
       className="modal fade"
@@ -66,9 +62,9 @@ export default function AddExpenseModal({}: AddExpenseModalProps) {
               <div>
                 <label className="form-label">Expense Name</label>
                 <input
-                  className={"form-control" + (lnameError ? " is-invalid" : "")}
-                  onChange={inputLnameOnChange} // แก้ไขแล้วล้าง error ← ข้อ 1.2
-                  value={lname}
+              //    className={"form-control" + (lnameError ? " is-invalid" : "")}
+               //   onChange={inputLnameOnChange} // แก้ไขแล้วล้าง error ← ข้อ 1.2
+               //   value={lname}
                 />
                 <div className="invalid-feedback">Invalid last name</div>
               </div>
@@ -78,9 +74,9 @@ export default function AddExpenseModal({}: AddExpenseModalProps) {
             <div className="mt-2">
               <label className="form-label">Plan</label>
               <select
-                className={"form-select" + (planError ? " is-invalid" : "")}
-                onChange={selectPlanOnChange} // เปลี่ยนแล้วล้าง error ← ข้อ 1.2
-                value={plan}
+               // className={"form-select" + (planError ? " is-invalid" : "")}
+              //  onChange={selectPlanOnChange} // เปลี่ยนแล้วล้าง error ← ข้อ 1.2
+              //  value={plan}
               >
                 <option value="">Please select..</option>
                 <option value="Food">Food</option>
@@ -96,8 +92,8 @@ export default function AddExpenseModal({}: AddExpenseModalProps) {
 
             <button
               className="btn btn-success my-2"
-              onClick={registerBtnOnClick}
-              disabled={!isUserAgreed} // ไม่ยอมรับเงื่อนไข → ปุ่มถูกปิด
+             // onClick={registerBtnOnClick}
+              //disabled={!isUserAgreed} // ไม่ยอมรับเงื่อนไข → ปุ่มถูกปิด
             >
               Submit
             </button>
@@ -106,7 +102,7 @@ export default function AddExpenseModal({}: AddExpenseModalProps) {
       </div>
     </div>
   );
-
+}
 
 
 

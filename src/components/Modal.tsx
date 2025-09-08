@@ -1,4 +1,4 @@
-import { useState } from "react";
+/*import { useState } from "react";
 import {
   Modal,
   TextInput,
@@ -6,7 +6,7 @@ import {
   Select,
   Button,
   Stack,
-} from "@mantine/core";
+} from "@mantine/core"; */
 
 //TexInput //รายการจ่าย 0 “Expense Name is required”✅
 //NumberLnput  //ขั้นต่ำ 0 “Amount is required”  ✅
@@ -23,11 +23,11 @@ type AddExpenseModalProps = {
 };
 
 export default function AddExpenseModal({}: AddExpenseModalProps) {
-  const [name, setName] = useState<string>("");
+  /*const [name, setName] = useState<string>("");
   const [amount, setAmount] = useState<string | number>(0);
   const [category, setCategory] = useState<string | null>(null);
 
-  const handleSubmit = () => {};
+  const handleSubmit = () => {};*/
 
   // หากต้องการแปง type string เป็น type number สามารถดูตัวอย่างนี้ได้
   let val_number: number = Number("500.0");
